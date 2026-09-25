@@ -1,7 +1,17 @@
 node_modules/
+
+# Binary hasil install.js (generic, jangan di-commit)
 bin/iviz
 bin/iviz.exe
-bin/iviz-*
+
+# Binary platform-spesifik (HARUS di-commit untuk NPM publish)
+!bin/iviz-linux-amd64
+!bin/iviz-linux-arm64
+!bin/iviz-darwin-amd64
+!bin/iviz-darwin-arm64
+!bin/iviz-windows-amd64.exe
+!bin/iviz-windows-arm64.exe
 !bin/iviz.js
+
 *.log
 .DS_Store
