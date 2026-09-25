@@ -1,6 +1,6 @@
 {
   "name": "@iviz/cli",
-  "version": "0.3.1",
+  "version": "0.3.3",
   "description": "Streamlit for Next.js — Bikin dashboard data dari file .iviz",
   "keywords": [
     "iviz",
