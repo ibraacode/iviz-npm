@@ -1,0 +1,7 @@
+node_modules/
+bin/iviz
+bin/iviz.exe
+bin/iviz-*
+!bin/iviz.js
+*.log
+.DS_Store

@@ -1,0 +1,42 @@
+{
+  "name": "@iviz/cli",
+  "version": "0.3.1",
+  "description": "Streamlit for Next.js — Bikin dashboard data dari file .iviz",
+  "keywords": [
+    "iviz",
+    "dashboard",
+    "nextjs",
+    "visualization",
+    "cli",
+    "static-site",
+    "streamlit-alternative"
+  ],
+  "homepage": "https://github.com/ibraacode/iviz",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ibraacode/iviz-npm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ibraacode/iviz/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "ibraacode",
+    "url": "https://github.com/ibraacode"
+  },
+  "bin": {
+    "iviz": "bin/iviz.js"
+  },
+  "files": [
+    "bin/",
+    "install.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "postinstall": "node install.js"
+  }
+}
