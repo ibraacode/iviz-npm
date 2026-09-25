@@ -26,9 +26,12 @@ BINARIES=(
 )
 
 for bin in "${BINARIES[@]}"; do
-  URL="https://github.com/$REPO/releases/download/$VERSION/$bin"
   echo "   → $bin"
-  if ! curl -fsSL "$URL" -o "$BIN_DIR/$bin"; then
+  if ! gh release download "$VERSION" \
+      --repo "$REPO" \
+      --pattern "$bin" \
+      --dir "$BIN_DIR" \
+      --clobber 2>/dev/null; then
     echo "     ⚠️  Gagal download $bin (skip)"
   else
     chmod +x "$BIN_DIR/$bin" 2>/dev/null || true
