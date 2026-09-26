@@ -1,17 +1,20 @@
 {
   "name": "@iviz/cli",
-  "version": "0.4.0",
-  "description": "Streamlit for Next.js — Bikin dashboard data dari file .iviz",
+  "version": "0.5.0",
+  "description": "Static Dashboard Builder — Turn CSV/JSON/YAML into beautiful static dashboards",
   "keywords": [
     "iviz",
     "dashboard",
-    "nextjs",
-    "visualization",
-    "cli",
+    "data-visualization",
     "static-site",
-    "streamlit-alternative"
+    "declarative-dsl",
+    "csv-dashboard",
+    "chart-library",
+    "no-code",
+    "nextjs",
+    "cli"
   ],
-  "homepage": "https://github.com/ibraacode/iviz",
+  "homepage": "https://iviz.ibraa.dev",
   "repository": {
     "type": "git",
     "url": "https://github.com/ibraacode/iviz-npm.git"
@@ -28,7 +31,8 @@
     "iviz": "bin/iviz.js"
   },
   "files": [
-    "bin/",
+    "bin/iviz-*",
+    "bin/iviz.js",
     "install.js",
     "README.md",
     "LICENSE"
