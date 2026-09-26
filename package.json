@@ -1,6 +1,6 @@
 {
   "name": "@iviz/cli",
-  "version": "0.5.0",
+  "version": "0.6.1",
   "description": "Static Dashboard Builder — Turn CSV/JSON/YAML into beautiful static dashboards",
   "keywords": [
     "iviz",
